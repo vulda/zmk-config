@@ -14,7 +14,7 @@
 	{
 		hrm: home_row_mod 
 		{ 
-			compatible = "zmk,behavior-hold-tap";
+			compatable = "zmk,behavior-hold-tap";
 			#binding-cells = <2>;
   			flavor = "tap-preferred";
     			tapping-term-ms = <200>;
@@ -34,7 +34,7 @@
     };
 
         keymap {
-                compatible = "zmk,keymap";
+                compatible = "zmk,keymap"
 
                 default_layer {
 // -----------------------------------------------------------------------------------------
