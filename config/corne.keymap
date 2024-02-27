@@ -65,15 +65,15 @@
 
                 raise_layer {
 // -----------------------------------------------------------------------------------------
-// |  TAB |     |  up |     |    |  <  |  	 |  >  |     |     |   \  |     | BKSP |
+// |  TAB |     |  up |     |    |  <  |  	 |  >  |  -  |     |   \  |     | BKSP |
 // | CTRL |left | down|right|    |  [  |  	 |  ]  |  =  |  `  |   _  |     |      |
 // | SHFT |     |     |     | 	 |  {  |  	 |  }  |  +  |  ~  |  "|" |     |      |
 //                    | GUI |    | SPC |  	 | ENT |     | ALT |
                         bindings = <
-   &kp TAB   &trans   &kp UP	&trans	  &trans	&kp LT      		&kp GT		&trans	  &trans	&kp BSLH 	&trans &kp BSPC
-   &kp LCTRL &kp LEFT &kp DOWN	&kp RIGHT &trans	&kp LBKT    		&kp RBKT  	&kp EQUAL &kp GRAVE	&kp UNDER 	&trans &trans
-   &kp LSHFT &trans   &trans	&trans    &trans 	&kp LBRC    		&kp RBRC  	&kp PLUS  &kp TILDE	&kp PIPE 	&trans &trans
-                                &kp LGUI  &trans   	&kp SPACE   		&kp RET   	&trans    &kp RALT
+   &kp TAB   &trans   &kp UP	&trans	  &trans	&kp LT      		&kp GT		&kp MINUS	&trans		&kp BSLH 	&trans &kp BSPC
+   &kp LCTRL &kp LEFT &kp DOWN	&kp RIGHT &trans	&kp LBKT    		&kp RBKT  	&kp EQUAL	&kp GRAVE	&kp UNDER 	&trans &trans
+   &kp LSHFT &trans   &trans	&trans    &trans 	&kp LBRC    		&kp RBRC  	&kp PLUS	&kp TILDE	&kp PIPE 	&trans &trans
+                                &kp LGUI  &trans   	&kp SPACE   		&kp RET   	&trans		&kp RALT
                         >;
                 };
 
